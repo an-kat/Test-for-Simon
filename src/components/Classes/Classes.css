@@ -1,3 +1,25 @@
+/*fire-picture*/
+.fire-1 {
+    position: absolute;
+    left: 1300px;
+    right: -50.29%;
+    top: 690px;
+    bottom: 0%;
+}
+.fire-2 {
+    position: absolute;
+    left: 1360px;
+    right: 31.48%;
+    top: 780px;
+    bottom: 48.82%;
+}
+.fire-3 {
+    position: absolute;
+    left: 1320px;
+    right: -8.4%;
+    top: 880px;
+    bottom: 5.57%;
+}
 /*present*/
 .present-logo {
     text-align: center;
@@ -40,7 +62,7 @@
 }
 .writing {
     margin-top: 100px;
-    margin-left: 480px;
+    margin-left: 30%;
     font-weight: 900;
     font-size: 34px;
     line-height: 34px;
@@ -50,9 +72,74 @@
 }
 .writing-posts {
     display: flex;
-    margin-left: 430px;
+    margin-left: 25%;
     margin-top: 100px;
 }
 .writing-posts div {
     margin: 0 20px;
+}
+.storyboarding {
+    margin-left: 140px;
+    margin-top: 100px;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 34px;
+    letter-spacing: 0.06em;
+    color: #807BE4;
+    transform: rotate(2deg);
+}
+.storyboarding-posts {
+    display: flex;
+    margin-left: 25px;
+    margin-top: 70px;
+}
+.storyboarding-posts div {
+    margin: 0 20px;
+}
+.visual {
+    margin-top: 100px;
+    margin-left: 15%;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 34px;
+    letter-spacing: 0.06em;
+    color: #FF9FD4;
+    transform: rotate(-3deg);
+}
+.visual-posts {
+    display: flex;
+    margin-left: 13%;
+    margin-top: 100px;
+}
+.visual-posts div {
+    margin: 0 20px;
+}
+.animation {
+    margin-left: 530px;
+    margin-top: 100px;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 34px;
+    letter-spacing: 0.06em;
+    color: #A8D29B;
+    transform: rotate(2deg);
+}
+.animation-posts {
+    display: flex;
+    margin-left: 30%;
+    margin-top: 40px;
+}
+.animation-posts div {
+    margin: 0 20px;
+}
+/*slider*/
+.missed-out {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 34px;
+    letter-spacing: 0.06em;
+    color: #FF9FD4;
+    transform: rotate(3deg);
 }
