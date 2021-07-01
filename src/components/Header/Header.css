@@ -1,0 +1,50 @@
+.nav {
+    height: 72px;
+    width: 100%;
+    background: #E2EB76;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo {
+    margin-left: 78px;
+    margin-top: 12px;
+}
+.nav-menu {
+    display: flex;
+}
+.nav-menu b {
+    color: #F81958;
+    margin: 0 30px;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+}
+.nav-menu b:hover {
+    color: #1E1010;
+}
+.nav-user {
+    display: flex;
+    margin-right: 71px;
+}
+.nav-user b {
+    color: #F81958;
+    font-size: 20px;
+    line-height: 22px;
+    cursor: pointer;
+}
+.nav-user-join b {
+    color: #FAFF29;
+    position: relative;
+    margin-right: 54px;
+    z-index: 1;
+}
+.nav-user div div img {
+    position: absolute;
+    right: 145px;
+    top: 9px;
+    z-index: 0;
+}
+

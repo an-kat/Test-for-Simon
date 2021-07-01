@@ -1,0 +1,58 @@
+/*present*/
+.present-logo {
+    text-align: center;
+    margin-top: 130px;
+}
+.present p {
+    color: #E2EB76;
+    text-align: center;
+    font-size: 28px;
+    line-height: 36px;
+}
+/*posts*/
+.post h3 {
+    color: #FAFF29;
+    margin-left: 15px;
+    width: 225px;
+}
+.post p {
+    color: purple;
+    margin-left: 15px;
+}
+
+.coming {
+    margin-left: 140px;
+    margin-top: 100px;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 34px;
+    letter-spacing: 0.06em;
+    color: #FFA87D;
+    transform: rotate(-3deg);
+}
+.coming-posts {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.coming-posts div {
+    margin: 0 20px;
+}
+.writing {
+    margin-top: 100px;
+    margin-left: 480px;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 34px;
+    letter-spacing: 0.06em;
+    color: #A8D29B;
+    transform: rotate(-3deg);
+}
+.writing-posts {
+    display: flex;
+    margin-left: 430px;
+    margin-top: 100px;
+}
+.writing-posts div {
+    margin: 0 20px;
+}
