@@ -15,110 +15,134 @@ import p11 from "../../images/Vector (11).png"
 import p12 from "../../images/Vector (12).png"
 import p13 from "../../images/Vector (13).png"
 import p14 from "../../images/Vector (14).png"
-import p15 from "../../images/Vector (15).png"
-import p16 from "../../images/Vector (16).png"
-import p17 from "../../images/Vector (17).png"
+import fire from "../../images/sticker_random_fire.png"
+import sticker from "../../images/sticker_random_make art.png"
 import Slider from "./Slider/Slider";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, {
+    Navigation
+} from 'swiper/core';
+SwiperCore.use([Navigation]);
+
 
 
 const Classes = () => {
     return (
         <>
-            <img className={"fire-1"} src={p15} alt=""/>
-            <img className={"fire-2"} src={p16} alt=""/>
-            <img className={"fire-3"} src={p17} alt=""/>
             {/*present*/}
             <div className={"present"}>
                 <p className={"present-logo"}><img src={logo} alt="Logo"/></p>
                 <p>
-                    Improve the parts you s#ck at with <b>LIVE Classes</b> + <br/>Reviews and get help creating your personal <b>Project</b>
+                    Improve the parts you s#ck at with <span>LIVE Classes</span> + <br/>Reviews and get help creating your personal <span>Project</span>
                 </p>
             </div>
             {/*posts*/}
-            <p className={"coming"}>coming soon</p>
+            <span className={"coming"}>coming soon</span>
             <div className={"coming-posts"}>
-                <div className={"post"}>
-                    <img src={p1} alt="picture1"/>
-                    <h3>Energetic Character Design</h3>
-                    <p>by Chase Conley</p>
-                </div>
-                <div className={"post"}>
-                    <img src={p2} alt="picture2"/>
-                    <h3>Movie Concepting</h3>
-                    <p>by Rad Sechrist + J.I.D.</p>
-                </div>
-                <div className={"post"}>
-                    <img src={p3} alt="picture3"/>
-                    <h3>Animated Music Video Class</h3>
-                    <p>by Dab Bowie + Rad Sechrist + Daniel Rojas</p>
-                </div>
-            </div>
-            <p className={"writing"}>writing</p>
-            <div className={"writing-posts"}>
-                <div className={"post"}>
-                    <img src={p4} alt="picture4"/>
-                    <h3>How to Write an Animated Scene</h3>
-                    <p>by Chris Amick</p>
-                </div>
-                <div className={"post"}>
-                    <img src={p5} alt="picture5"/>
-                    <h3>Write Night: Writing Workshop + Q&A</h3>
-                    <p>by Chris Amick</p>
-                </div>
-                <div className={"post"}>
-                    <img src={p6} alt="picture6"/>
-                    <h3>Writing Your Animated Pilot</h3>
-                    <p>by Bill Wolkoff</p>
-                </div>
+                <img src={fire} alt="" className={"fire"}/>
+                <Swiper slidesPerView={5} spaceBetween={-80} pagination={{
+                    "clickable": false
+                }} className="mySwiper">
+                    <SwiperSlide>
+                        <div className={"post"}>
+                            <img src={p1} alt=""/>
+                            <h3>How to Write an Animated Scene</h3>
+                            <p>by Chris Amick</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className={"post"}>
+                            <img src={p2} alt="picture2"/>
+                            <h3>Movie Concepting</h3>
+                            <p>by Rad Sechrist + J.I.D.</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className={"post"}>
+                            <img src={p3} alt="picture3"/>
+                            <h3>Animated Music Video Class</h3>
+                            <p>by Dab Bowie + Rad Sechrist + Daniel Rojas</p>
+                        </div>
+                    </SwiperSlide>
+                </Swiper>
             </div>
             <p className={"storyboarding"}>storyboarding</p>
             <div className={"storyboarding-posts"}>
-                <div className={"post"}>
-                    <img src={p7} alt="picture7"/>
-                    <h3>Storyboarding for Animation Workshop</h3>
-                    <p>by Andy Cung</p>
-                </div>
-                <div className={"post"}>
-                    <img src={p8} alt="picture8"/>
-                    <h3>Gesture Drawing for Storyboarding</h3>
-                    <p>by Chris Amick</p>
-                </div>
-                <div className={"post"}>
-                    <img src={p9} alt="picture9"/>
-                    <h3>Storyboarding for Animation</h3>
-                    <p>by Dab Bowie + Rad Sechrist + Daniel Rojas</p>
-                </div>
-                <div className={"post"}>
-                    <img src={p10} alt="picture10"/>
-                    <h3>Animated Music Video Class</h3>
-                    <p>by Dab Bowie + Rad Sechrist + Daniel Rojas</p>
-                </div>
+                <Swiper slidesPerView={5} spaceBetween={-80} pagination={{
+                    "clickable": false
+                }} className="mySwiper">
+                    <SwiperSlide>
+                        <div className={"post"}>
+                            <img src={p7} alt="picture4"/>
+                            <h3>Storyboarding for Animation Workshop</h3>
+                            <p>by Andy Cung</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className={"post"}>
+                            <img src={p8} alt="picture5"/>
+                            <h3>Gesture Drawing for Storyboarding</h3>
+                            <p>by Chris Amick</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className={"post"}>
+                            <img src={p9} alt="picture6"/>
+                            <h3>Storyboarding for Animation</h3>
+                            <p>by Chris Copeland + Justin Copeland</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className={"post"}>
+                            <img src={p10} alt="picture6"/>
+                            <h3>Drawing for Storyboards in Animation</h3>
+                            <p>by Chris Copeland</p>
+                        </div>
+                    </SwiperSlide>
+                </Swiper>
             </div>
             <p className={"visual"}>visual development</p>
             <div className={"visual-posts"}>
-                <div className={"post"}>
-                    <img src={p11} alt="picture11"/>
-                    <h3>How to Write an Animated Scene</h3>
-                    <p>by Chris Amick</p>
-                </div>
-                <div className={"post"}>
-                    <img src={p12} alt="picture12"/>
-                    <h3>Write Night: Writing Workshop + Q&A</h3>
-                    <p>by Chris Amick</p>
-                </div>
+                <Swiper slidesPerView={5} spaceBetween={-80} pagination={{
+                    "clickable": false
+                }} className="mySwiper">
+                    <SwiperSlide>
+                        <div className={"post"}>
+                            <img src={p11} alt="picture4"/>
+                            <h3>Environment Painting and Composition</h3>
+                            <p>by Kalen Chock</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className={"post"}>
+                            <img src={p12} alt="picture5"/>
+                            <h3>Seeing colors!</h3>
+                            <p>by Chris Amick</p>
+                        </div>
+                    </SwiperSlide>
+                </Swiper>
             </div>
             <p className={"animation"}>animation</p>
             <div className={"animation-posts"}>
-                <div className={"post"}>
-                    <img src={p13} alt="picture13"/>
-                    <h3>2D Animation Workshop</h3>
-                    <p>by Toniko Pantoja</p>
-                </div>
-                <div className={"post"}>
-                    <img src={p14} alt="picture14"/>
-                    <h3>Write Night: Writing Workshop + Q&A</h3>
-                    <p>by Chris Amick</p>
-                </div>
+                <img src={sticker} alt="" className={"sticker"}/>
+                <Swiper slidesPerView={5} spaceBetween={-80} pagination={{
+                    "clickable": false
+                }} className="mySwiper">
+                    <SwiperSlide>
+                        <div className={"post"}>
+                            <img src={p13} alt="picture13"/>
+                            <h3>2D Animation Workshop</h3>
+                            <p>by Toniko Pantoja</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className={"post"}>
+                            <img src={p12} alt="picture5"/>
+                            <h3>Animation Industry Fundamentals</h3>
+                            <p>by Ethan Becker</p>
+                        </div>
+                    </SwiperSlide>
+                </Swiper>
             </div>
             <p className={"missed-out"}>missed out</p>
             <Slider />

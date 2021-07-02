@@ -10,14 +10,14 @@ const Header = () => {
                 <img src={logo} alt=""/>
             </div>
             <div className={"nav-menu"}>
-                <b >Classes</b>
+                <b>Classes</b>
                 <b>Projects</b>
                 <b>Feed</b>
                 <b>Search</b>
             </div>
             <div className={"nav-user"}>
                 <div className={"nav-user-join"}>
-                    <div><img src={joinLogo} alt=""/></div>
+                    {/*<div><img src={joinLogo} alt=""/></div>*/}
                     <b>Join Us</b>
                 </div>
                 <b>Log In</b>
