@@ -18,6 +18,7 @@ import p14 from "../../images/Vector (14).png"
 import p15 from "../../images/Vector (15).png"
 import p16 from "../../images/Vector (16).png"
 import p17 from "../../images/Vector (17).png"
+import Slider from "./Slider/Slider";
 
 
 const Classes = () => {
@@ -120,6 +121,7 @@ const Classes = () => {
                 </div>
             </div>
             <p className={"missed-out"}>missed out</p>
+            <Slider />
         </>
     );
 };

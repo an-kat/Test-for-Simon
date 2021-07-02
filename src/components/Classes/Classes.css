@@ -134,8 +134,8 @@
 }
 /*slider*/
 .missed-out {
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-left: 180px;
+    margin-top: 130px;
     font-weight: 900;
     font-size: 34px;
     line-height: 34px;
@@ -143,3 +143,4 @@
     color: #FF9FD4;
     transform: rotate(3deg);
 }
+
